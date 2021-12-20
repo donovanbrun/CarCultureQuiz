@@ -34,7 +34,7 @@ public class CarService {
 
         for (int i = 0; i < 100; i++) {
 
-            int year = (int) (Math.random() * 3000);
+            int year = 1950 + (int) (Math.random() * 100);
             int hp = (int) (Math.random() * 1500);
             Car c = new Car("brand", "model n°" + i, year, hp);
             add(c);

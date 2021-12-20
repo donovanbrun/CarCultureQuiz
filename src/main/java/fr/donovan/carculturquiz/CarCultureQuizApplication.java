@@ -2,13 +2,12 @@ package fr.donovan.carculturquiz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-public class CarculturquizApplication {
+public class CarCultureQuizApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CarculturquizApplication.class, args);
+		SpringApplication.run(CarCultureQuizApplication.class, args);
 	}
 
 }
